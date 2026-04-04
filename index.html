@@ -2,130 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Your Name | Resume</title>
+  <title>Manorma Sharma | Analyst</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Inter Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  https://fonts.googleapis.com
+  https://fonts.gstatic.com
+  https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap
 
-  <link rel="stylesheet" href="styles.css">
+  <!-- Icons -->
+  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css
+
+  styles.css
 </head>
 <body>
 
-  <main class="container">
+<header class="top-bar">
+  <div>
+    <h1>Manorma Sharma</h1>
+    <p>Analyst · HCLTech</p>
+  </div>
+  <div class="links">
+    manorma.sharma@hcltech.com<i class="fa-solid fa-envelope"></i></a>
+    https://linkedin.com<i class="fa-brands fa-linkedin"></i></a>
+  </div>
+</header>
 
-    <!-- Header -->
-    <header class="header">
-      <h1>Your Name</h1>
-      <p class="designation">Job Title / Role</p>
-      <p class="contact">
-        📍 Noida, India · 📧 your.email@example.com · 📞 +91-XXXXXXXXXX · 💼 linkedin.com/in/yourname
-      </p>
-    </header>
+<main class="container">
 
-    <!-- Profile -->
-    <section>
-      <h2>Profile</h2>
-      <p>
-        Results-driven professional with experience in infrastructure, systems, and enterprise support.
-        Strong analytical skills, proactive problem-solver, and effective communicator with a focus
-        on reliability and operational excellence.
-      </p>
-    </section>
+  <section class="card highlight">
+    <h2>Profile</h2>
+    <p>
+      Enthusiastic Analyst with a strong foundation in data protection technologies and
+      growing expertise in Cloud Computing, DevOps, and Generative AI.
+      Experienced in Commvault, Druva, ServiceNow, and Google Cloud Platform,
+      with hands-on support of enterprise infrastructure and backup operations.
+    </p>
+  </section>
 
-    <!-- Skills -->
-    <section>
-      <h2>Skills</h2>
-      <ul class="skills">
-        <li>Linux & Unix Administration</li>
-        <li>Backup & Recovery (Commvault, Druva)</li>
-        <li>Autosys Job Scheduling</li>
-        <li>Monitoring & Troubleshooting</li>
-        <li>Shell Scripting</li>
-        <li>Incident & Change Management</li>
-      </ul>
-    </section>
+  <section class="card">
+    <h2>Skills</h2>
+    <div class="skill-tags">
+      <span>Commvault</span>
+      <span>Druva</span>
+      <span>GCP</span>
+      <span>GCVE</span>
+      <span>Terraform</span>
+      <span>Ansible</span>
+      <span>Docker</span>
+      <span>Linux</span>
+      <span>Git</span>
+      <span>ServiceNow</span>
+      <span>Prompt Engineering</span>
+    </div>
+  </section>
 
-    <!-- Experience -->
-    <section>
-      <h2>Experience</h2>
+  <section class="card">
+    <h2>Experience</h2>
+    <h3>Analyst – HCLTech</h3>
+    <span class="date">October 2023 – Present</span>
+    <ul>
+      <li>Support daily backup operations across physical, virtual, and cloud environments.</li>
+      <li>Monitor and troubleshoot backup jobs using Commvault and Druva.</li>
+      <li>Manage incidents and service requests through ServiceNow.</li>
+      <li>Ensure SLA compliance and perform proactive issue escalation.</li>
+    </ul>
+  </section>
 
-      <div class="item">
-        <h3>Analyst – Company Name</h3>
-        <span class="date">2023 – Present</span>
-        <ul>
-          <li>Monitored and managed enterprise backup infrastructure.</li>
-          <li>Handled recurring job failures and coordinated with server teams.</li>
-          <li>Performed root cause analysis and proactive troubleshooting.</li>
-          <li>Ensured SLA compliance and documentation.</li>
-        </ul>
-      </div>
+  <section class="card">
+    <h2>Education</h2>
+    <h3>BITS Pilani</h3>
+    <p>Bachelor’s Degree – Design and Computing</p>
+  </section>
 
-      <div class="item">
-        <h3>Support Engineer – Company Name</h3>
-        <span class="date">2021 – 2023</span>
-        <ul>
-          <li>Provided Level 2 support for production systems.</li>
-          <li>Executed backup restores and job recovery.</li>
-          <li>Worked closely with cross-functional teams.</li>
-        </ul>
-      </div>
-    </section>
+  <section class="card">
+    <h2>Certifications</h2>
+    <ul class="cert-list">
+      <li>Google Cloud Digital Leader</li>
+      <li>Google Cloud Generative AI Leader</li>
+      <li>Commvault Cloud Platform Architect – SaaS</li>
+      <li>Commvault Cloud Platform Architect – Software</li>
+    </ul>
+  </section>
 
-    <!-- Projects -->
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>Automation of regular backup health checks using shell scripts.</li>
-        <li>Bandwidth optimization for remote backup jobs.</li>
-      </ul>
-    </section>
+</main>
 
-    <!-- Education -->
-    <section>
-      <h2>Education</h2>
-      <div class="item">
-        <h3>Bachelor’s Degree – Your Field</h3>
-        <span class="date">University Name | Year</span>
-      </div>
-    </section>
+<footer>
+  © 2026 Manorma Sharma
+</footer>
 
-    <!-- Certifications -->
-    <section>
-      <h2>Certifications</h2>
-      <ul>
-        <li>Commvault Certified Professional</li>
-        <li>Linux Administration Certification</li>
-      </ul>
-    </section>
-
-    <!-- Tools -->
-    <section>
-      <h2>Tools & Technologies</h2>
-      <p>Commvault, Druva, Autosys, Unix/Linux, Shell Scripting, ServiceNow</p>
-    </section>
-
-    <!-- Languages -->
-    <section>
-      <h2>Languages</h2>
-      <p>English, Hindi</p>
-    </section>
-
-    <!-- Achievements -->
-    <section>
-      <h2>Achievements</h2>
-      <ul>
-        <li>Recognized for reducing recurring job failures.</li>
-        <li>Consistently met SLA targets.</li>
-      </ul>
-    </section>
-
-    <footer>
-      <p>© 2026 Your Name</p>
-    </footer>
-
-  </main>
 </body>
 </html>
